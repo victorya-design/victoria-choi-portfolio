@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      id="meta-description"
+      name="description"
+      content="Victoria Choi, marketing portfolio. Psychology graduate based in Seoul."
+    />
+    <title id="page-title">Victoria Choi | Marketing Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="logo" href="index.html" data-i18n="footer.name">Victoria Choi</a>
+        <div class="header-right">
+          <div
+            class="lang-switch"
+            role="group"
+            aria-label="Language"
+            data-i18n-aria="lang.groupLabel"
+          >
+            <button
+              type="button"
+              class="lang-btn is-active"
+              data-lang="en"
+              aria-pressed="true"
+            >
+              EN
+            </button>
+            <button
+              type="button"
+              class="lang-btn"
+              data-lang="ko"
+              aria-pressed="false"
+            >
+              KO
+            </button>
+          </div>
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="site-nav"
+          >
+            <span class="nav-toggle-label" data-i18n="nav.menu">Menu</span>
+          </button>
+          <nav id="site-nav" class="site-nav" data-i18n-aria="nav.aria">
+            <a href="#intro" data-i18n="nav.intro">Intro</a>
+            <a href="#experience" data-i18n="nav.experience">Experience</a>
+            <a href="#skills" data-i18n="nav.skills">Skills</a>
+            <a href="#about" data-i18n="nav.about">About</a>
+            <a href="#contact" data-i18n="nav.contact">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="intro" class="hero">
+        <div class="wrap hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="hero.eyebrow">Marketing · Research</p>
+            <h1>
+              <span data-i18n="hero.title">Hi, I’m Victoria.</span>
+              <span class="hero-accent" data-i18n="hero.accent"
+                >I like figuring out what people need.</span
+              >
+            </h1>
+            <p class="lead" data-i18n="hero.lead1">
+              I studied Psychology at the University of Michigan and graduated
+              with a BA. That training taught me to listen carefully, notice
+              patterns in behavior, and ask better questions, skills I bring to
+              marketing when I’m trying to understand audiences and communicate
+              in a way that feels human.
+            </p>
+            <p class="lead" data-i18n="hero.lead2">
+              I’m looking for roles where I can keep learning how brands connect
+              with people. This site is a home for that work as it grows.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#experience" data-i18n="hero.ctaExperience"
+                >See my experience</a
+              >
+              <a class="btn btn-ghost" href="#contact" data-i18n="hero.ctaContact"
+                >Get in touch</a
+              >
+            </div>
+          </div>
+          <figure class="hero-photo">
+            <img
+              src="images/victoria.jpg"
+              width="1000"
+              height="1250"
+              data-i18n-alt="hero.photoAlt"
+              alt="Portrait of Victoria Choi"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="wrap">
+          <header class="section-header">
+            <h2 data-i18n="experience.title">Experience</h2>
+            <p data-i18n="experience.intro">
+              I’ve contributed to marketing efforts at student and community
+              organizations. I’m adding case studies here as we shape the details
+              together, with no fluff, just what I actually did.
+            </p>
+          </header>
+
+          <ul class="card-list">
+            <li>
+              <a class="card card-link" href="experience-lets-gather.html">
+                <h3>Let’s Gather</h3>
+                <p class="card-role" data-i18n="experience.lgRole">
+                  Personal project · PR &amp; marketing
+                </p>
+                <span class="card-more" data-i18n="experience.moreDetails"
+                  >Click for more details</span
+                >
+              </a>
+            </li>
+            <li>
+              <a class="card card-link" href="experience-mended.html">
+                <h3>Mended</h3>
+                <p class="card-role" data-i18n="experience.mendedRole">
+                  Marketing intern · Remote
+                </p>
+                <span class="card-more" data-i18n="experience.moreDetails"
+                  >Click for more details</span
+                >
+              </a>
+            </li>
+            <li>
+              <a class="card card-link" href="experience-kisa.html">
+                <h3>KISA</h3>
+                <p class="card-role" data-i18n="experience.kisaRole">
+                  PR leader · event coordinator
+                </p>
+                <span class="card-more" data-i18n="experience.moreDetails"
+                  >Click for more details</span
+                >
+              </a>
+            </li>
+            <li>
+              <a class="card card-link" href="research-experience.html">
+                <h3>
+                  <span data-i18n="experience.researchTitle">Research Experience</span
+                  ><span class="card-count">4</span>
+                </h3>
+                <p class="card-role" data-i18n="experience.researchRole">
+                  Research assistant
+                </p>
+                <span class="card-more" data-i18n="experience.moreDetails"
+                  >Click for more details</span
+                >
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-alt">
+        <div class="wrap">
+          <header class="section-header">
+            <h2 data-i18n="skills.title">Certifications &amp; skills</h2>
+          </header>
+
+          <div class="skills-grid">
+            <div class="card">
+              <h3 data-i18n="skills.certTitle">Certifications</h3>
+              <ul class="cert-list">
+                <li>
+                  <span class="cert-name">Google Data Analytics</span>
+                  <span class="cert-meta">Google · 2026</span>
+                </li>
+                <li>
+                  <span class="cert-name">Marketing Analytics with Meta</span>
+                  <span class="cert-meta">Meta · 2026</span>
+                </li>
+                <li>
+                  <span class="cert-name"
+                    >Foundations of Digital Marketing and E-commerce</span
+                  >
+                  <span class="cert-meta">Google · 2026</span>
+                </li>
+                <li>
+                  <span class="cert-name"
+                    >Assess for Success: Marketing Analytics and Measurement</span
+                  >
+                  <span class="cert-meta">Google · 2026</span>
+                </li>
+                <li>
+                  <span class="cert-name">Data Analytics Job Simulation</span>
+                  <span class="cert-meta">Deloitte · 2026</span>
+                </li>
+                <li>
+                  <span class="cert-name">Omnichannel Marketing Job Simulation</span>
+                  <span class="cert-meta" data-i18n="skills.jobSim">Forage · 2026</span>
+                </li>
+                <li>
+                  <span class="cert-name">TOEFL iBT 108</span>
+                  <span class="cert-meta">ETS · 2024</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3 data-i18n="skills.skillsTitle">Skills</h3>
+              <div class="skill-group">
+                <h4 data-i18n="skills.marketingLabel">Marketing</h4>
+                <ul class="skill-tags">
+                  <li data-i18n="skills.m1">Social media marketing</li>
+                  <li data-i18n="skills.m2">Content strategy</li>
+                  <li data-i18n="skills.m3">Email marketing</li>
+                  <li data-i18n="skills.m4">Marketing analytics</li>
+                  <li data-i18n="skills.m5">Event planning</li>
+                </ul>
+              </div>
+              <div class="skill-group">
+                <h4 data-i18n="skills.researchLabel">Research</h4>
+                <ul class="skill-tags">
+                  <li data-i18n="skills.r1">Market research</li>
+                  <li data-i18n="skills.r2">Survey design</li>
+                  <li data-i18n="skills.r3">Customer feedback analysis</li>
+                  <li data-i18n="skills.r4">Data visualization (Excel)</li>
+                </ul>
+              </div>
+              <div class="skill-group">
+                <h4 data-i18n="skills.businessLabel">Business</h4>
+                <ul class="skill-tags">
+                  <li data-i18n="skills.b1">Business development</li>
+                  <li data-i18n="skills.b2">Partnerships</li>
+                  <li data-i18n="skills.b3">Product development</li>
+                </ul>
+              </div>
+              <div class="skill-group">
+                <h4 data-i18n="skills.languagesLabel">Languages</h4>
+                <ul class="skill-tags">
+                  <li data-i18n="skills.l1">Korean</li>
+                  <li data-i18n="skills.l2">English</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="wrap about-grid">
+          <div>
+            <h2 data-i18n="about.title">About</h2>
+            <p data-i18n="about.p1">
+              I’m Victoria Choi. I earned my BA in Psychology from the
+              University of Michigan. I’m drawn to marketing because it sits at
+              the intersection of research instincts and storytelling. You have
+              to understand people before you can speak to them well.
+            </p>
+            <p data-i18n="about.p2">
+              Outside of class and org work, I pay attention to how brands show
+              up in everyday life: what makes a message feel clear, what makes it
+              feel forgettable, and how tone changes when the audience changes.
+              That curiosity is what I want to bring to a team.
+            </p>
+          </div>
+          <aside class="about-aside">
+            <h3 class="about-aside-title" data-i18n="about.factsTitle">
+              Quick facts
+            </h3>
+            <dl class="facts">
+              <div>
+                <dt data-i18n="about.educationLabel">Education</dt>
+                <dd data-i18n="about.educationValue">
+                  BA Psychology, University of Michigan
+                </dd>
+              </div>
+              <div>
+                <dt data-i18n="about.locationLabel">Location</dt>
+                <dd data-i18n="about.locationValue">Seoul</dd>
+              </div>
+              <div>
+                <dt data-i18n="about.focusLabel">Focus</dt>
+                <dd data-i18n="about.focusValue">
+                  Audience insight, brand communication, org marketing
+                </dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-alt">
+        <div class="wrap contact-block">
+          <h2 data-i18n="contact.title">Contact</h2>
+          <p data-i18n="contact.intro">
+            If you’re hiring or just want to say hello, I’d love to hear from
+            you.
+          </p>
+          <ul class="contact-links">
+            <li>
+              <a href="mailto:victorya@umich.edu">victorya@umich.edu</a>
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com/in/victoriayhchoi"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          © <span id="year"></span>
+          <span data-i18n="footer.name">Victoria Choi</span>
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
